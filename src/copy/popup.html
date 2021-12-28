@@ -5,10 +5,39 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./popup.css">
     <title>Document</title>
 </head>
 <body>
-<div id="root"><p>hi</p></div>
+<div id="root">
+    <div id="form-wrap">
+        <p>
+            <span>上报地址:</span>
+            <span id="dsn"></span>
+        </p>
+        <p>
+            <span>仓库ID:</span>
+            <span id="repoId"></span>
+        </p>
+
+        <p>
+            <span>Commit Sha:</span>
+            <span id="commitSha"></span>
+        </p>
+
+        <p>
+            <span>覆盖率对象:</span>
+            <span id="coverage"></span>
+        </p>
+    </div>
+
+    <button id="btn">上报</button>
+
+    <p>
+        <span>结果:</span>
+        <span id="result"></span>
+    </p>
+</div>
 </body>
 <script src="./popup.js"></script>
 </html>

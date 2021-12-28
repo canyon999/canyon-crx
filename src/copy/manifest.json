@@ -1,7 +1,7 @@
 {
-  "name": "islin-crx",
+  "name": "canyon-crx",
   "description": "代码覆盖率上传插件",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "manifest_version": 3,
   "permissions": [
     "tabs"
@@ -30,7 +30,7 @@
     "128": "icons/128.png"
   },
   "action": {
-    "default_title": "islin-crx",
+    "default_title": "canyon-crx",
     "default_icon": "icon.png",
     "default_popup": "popup.html"
   }
