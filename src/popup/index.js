@@ -29,7 +29,7 @@ getPageCov().then(res=>{
             method:'POST',
             headers:{
                 'content-type': 'application/json',
-                Authorization: reporter
+                Authorization: `Bearer ${reporter}`
             },
             body:JSON.stringify({
                 "repoId": repoId,
