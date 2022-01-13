@@ -1,7 +1,7 @@
 {
   "name": "canyon-crx",
   "description": "代码覆盖率上传插件",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "manifest_version": 3,
   "permissions": [
     "tabs"
